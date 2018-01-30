@@ -39,8 +39,6 @@ class DataFeeder(threading.Thread):
         with open(metadata_filename) as f:
             self.metadata = [line.strip().split('|') for line in f]
 
-
-
         pass
     pass
 
